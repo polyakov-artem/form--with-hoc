@@ -1,0 +1,22 @@
+.form{
+  width: 300px;
+}
+
+.input{
+  display: block;
+  &__label {
+    margin: 0;
+  }
+  &__error {
+    color: red;
+    display: block;
+    height: 1.5rem; 
+  }
+  &__control {
+    width: 100%;
+  }
+}
+
+.btn {
+  display: block;
+}
